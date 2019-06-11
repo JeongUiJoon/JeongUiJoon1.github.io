@@ -1,0 +1,31 @@
+<style>
+        h1{ font-size:80px;
+            text-align: center;
+            color : white;
+            padding-top: 20px;
+        } 
+        form{text-align:center;
+            font-size : 50px;
+        }
+        body{
+            background-color: black;
+        }
+        a {
+            color : white;
+        }
+        
+
+</style>
+     
+<h1>글자수 알려드립니다.</h1>
+
+
+<form action="{%url 'result'%}">
+    <textarea cols="100" rows="20" name="textboard"></textarea>
+    <br>
+    <input type="submit" value="Count">
+</form>
+
+<br>
+<a href="{%url 'introduce'%}">사이트설명</a>
+<br>
